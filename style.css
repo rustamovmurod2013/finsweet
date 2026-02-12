@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-color: #232536;
+    padding: 25px;
+    position: fixed !important;
+    z-index: 2 !important;
+    top: 0 !important;
+    width: 100% !important;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header a{
+    color: white;
+}
+
+.header h1{
+    color: white;
+    align-items: center;
+}
+
+.header ul{
+    display: flex;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    list-style: none;
+}
+
+#grandfather{
+    background-image: url(./images/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.father1{
+    padding: 192px 0;
+}
+
+.child-1{
+    display: flex;
+        flex-direction: column;
+        max-width: 804px;
+        width: 100%;
+        gap: 24px;
+        align-items: start;
+        color: white;
+}
+
+.child-1 h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.child-1 h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.child-1 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.child-1 button{
+    font-weight: 700;
+}
+
+.father1 button{
+    width: 204px;
+    height: 56px;
+    background-color: #FFD050;
+}
+
+.musor{
+    margin-bottom: 100px;
+}
+
+.child{
+    max-width: 405px;
+    width: 100%;
+    margin-right: auto;
+    margin-right: auto;
+}
+
+.father2{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 100px;
+}
+
+.musor2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.father3{
+    display: flex;
+    gap: 32px;
+}
+
+.child1{
+    max-width: 296px;
+    width: 100%;
+    border: 1px solid #6D6E76;
+    padding: 32px;
+    margin-bottom: 73px;
+    transition: 0.5s;
+    color: black;
+}
+
+.child1:hover{
+    box-shadow: 0 0 5px 3px  #878787;
+
+}
+
+.icon img{
+    padding: 13px;
+}
+
+footer{
+background-color: #232536;
+    padding: 54px 80px;    
+}
+
+.father4{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.child2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.child3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+
+}
